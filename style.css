@@ -64,10 +64,14 @@ a:hover{
   font-size: 30px;
   background-color: #aaa;
   border-radius: 8px;
-  width: 100%;
-  margin: 0 auto 64px;
   color: white;
   padding: 8px 16px;
+}
+
+.suounada a{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* customer */
@@ -142,9 +146,13 @@ footer a img{
 @media (max-width:600px){
   
   .suounada{
-    width: 100%;
-    height: auto;
     font-size: 24px;
+  }
+
+  .suounada a{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
   }
 
   ul{
