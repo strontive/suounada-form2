@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+body{
+  margin: 96px;
+}
+
+.box{
+  position: relative;
+  text-align: center;
+}
+
+.box img{
+  width: 80%;
+  height: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  margin-top: 32px;
+}
+
+h2{
+  margin: 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li{
+  width:calc((100% - 144px) / 4);
+  box-sizing: border-box;
+}
+
+.issa img{
+  width: 100%;
+  height: auto;
+}
+
+p{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  opacity: .4;
+}
+
+/* ビルサービス注文フォーム */
+.suounada{
+  font-size: 48px;
+  background-color: #aaa;
+  border-radius: 8px;
+  width: 1080px;
+  margin: 0 auto 64px;
+  color: white;
+}
+
+/* customer */
+
+.customer{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.customer div{
+  flex: 1;
+}
+
+.customer img{
+  width: 100%;
+  height: auto;
+}
+
+.customer p{
+  margin-top: 32px;
+  font-size: 24px;
+}
+
+.customer button{
+  margin-top: 32px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 48px;
+}
+
+.customer h2{
+  font-size: 48px;
+}
+
+/* footer */
+
+footer{
+  text-align: center;
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+small{
+  font-size: 20px;
+  display: block;
+  margin: 48px auto 0;
+}
+
+footer a{
+    width:calc((100% - 144px) / 4);
+    box-sizing: border-box;
+}
+
+footer a img{
+  width: 100%;
+  height: auto;
+  margin-top: 48px;
+}
+
+/* お客様ラベル */
+
+.customer label select{
+  width: 250px;
+  height: 32px;
+  margin: 15px 0px;
+}
